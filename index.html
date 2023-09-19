@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/icon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__content">
+                <h1 class="header__title">Иван Попов</h1>
+                <p class="header__text">Верстальщик, веб-разработчик, создание сайтов</p>
+                <a href="#portfolio" class="arrow__link">
+                    <div class="arrow animated"></div>
+                </a>
+            </div>
+            <swiper-container class="mySwiper" loop="true" navigation="false" centered-slides="true"
+                autoplay-delay="2500" autoplay-disable-on-interaction="false" parallax="true" speed="1400">
+                <swiper-slide class="swiper-slide"></swiper-slide>
+                <swiper-slide class="swiper-slide"></swiper-slide>
+                <swiper-slide class="swiper-slide"></swiper-slide>
+            </swiper-container>
+        </header>
+        <main class="main">
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                    <h2 class="portfolio__title title">Портфолио</h2>
+                    <div class="portfolio__items">
+                        <div class="portfolio__item">
+                            <div class="portfolio__item-img">
+                                <picture>
+                                    <a href="https://cartmans121.github.io/Delote-beatyy/" target="_blank"
+                                        class="portfolio__item-link"><img src="./images/work-1.jpg" alt="work-1"></a>
+                                    <source srcset="images/bigsize/work-1.jpg" media="(max-width: 1200px)">
+                                </picture>
+                            </div>
+                            <h5 class="portfolio__item-title">
+                                Многостраничный сайт
+                            </h5>
+                            <p class="portfolio__item-text">Верстка многостраничного сайта.</p>
+                        </div>
+                        <div class="portfolio__item">
+                            <div class="portfolio__item-img">
+                                <a href="https://cartmans121.github.io/MainPrjct/" target="_blank"
+                                    class="portfolio__item-link"><img src="./images/work-2.png" alt="work-1"></a>
+                            </div>
+                            <h5 class="portfolio__item-title">
+                                Адаптивный лендинг
+                            </h5>
+                            <p class="portfolio__item-text">Верстка одностроничного сайта.</p>
+                        </div>
+                        <div class="portfolio__item">
+                            <div class="portfolio__item-img">
+                                <a href="https://cartmans121.github.io/Desire/" target="_blank"
+                                    class="portfolio__item-link"><img src="./images/work-3.png" alt="work-1"></a>
+                            </div>
+                            <h5 class="portfolio__item-title">
+                                Многостраничный сайт
+                            </h5>
+                            <p class="portfolio__item-text">Верстка многостраничного сайта.</p>
+                        </div>
+                        <div class="portfolio__item">
+                            <div class="portfolio__item-img">
+                                <a href="https://cartmans121.github.io/airpodsMax/" target="_blank"
+                                    class="portfolio__item-link"><img src="./images/work-4.png" alt="work-1"></a>
+                            </div>
+                            <h5 class="portfolio__item-title">
+                                Адаптивный лендинг
+                            </h5>
+                            <p class="portfolio__item-text">Верстка одностроничного сайта.</p>
+                        </div>
+                        <div class="portfolio__item">
+                            <div class="portfolio__item-img">
+                                <a href="https://cartmans121.github.io/Relvise/" target="_blank"
+                                    class="portfolio__item-link"><img src="./images/work-5.png" alt="work-1"></a>
+                            </div>
+                            <h5 class="portfolio__item-title">
+                                Адаптивный лендинг
+                            </h5>
+                            <p class="portfolio__item-text">Верстка одностроничного сайта.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="about">
+                <div class="container">
+                    <h2 class="about__title title">Обо мне</h2>
+                    <div class="about__content">
+                        <div class="about__item">
+                            <p class="about__text">Здравствуйте! Меня зовут Иван и я верстаю сайты на заказ любой
+                                сложности, это мое хобби и мне это нравится.
+                                К каждому проекту отношусть достаточно серьезно и нахожу лучшие решения, чтобы сайт был
+                                на современном уровне настоящего времени.</p>
+                            <p class="about__text">На сегодняшний день я сверстал более 15 макетов. Хорошо владею языком
+                                гипертекстовой разметки HTML вместе с CSS3 и JavaScript для более глубокой адаптивности
+                                и мобильности сайтов.
+                                Так же использую препроцессоры SASS, SCSS вместе с Gulp.
+                                Использую фреймворк Node.js вместе с React.
+                            </p>
+                            <p class="about__text">
+                                Мне нравится создавать динамичные и современные сайты, которые будут радовать вас.
+                                Напишите мне и мы обсудим с вами, что вас интересует!
+                            </p>
+                        </div>
+                        <div class="certificate__img">
+                            <img src="./images/certificate.png" alt="certificate-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__img-bg">
+                <img src="./images/desktop.png" alt="">
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <h3 class="footer__title">&copy; Иван Попов</h3>
+                        <p class="footer__text">HTML верстка и разработка сайтов</p>
+                    </div>
+                    <div class="footer__socials">
+                        <p class="footer_socials-text">Мои профили в социальных сетях:</p>
+                        <ul class="socials">
+                            <li class="socials__item"><a class="socials__link" href="#!"><img
+                                        src="./images/socials/instagram.svg" alt="instagram" class="socials__img"></a>
+                            </li>
+                            <li class="socials__item"><a class="socials__link" href="#!"><img
+                                        src="./images/socials/facebook.svg" alt="fb" class="socials__img"></a></li>
+                            <li class="socials__item"><a class="socials__link" href="#!"><img
+                                        src="./images/socials/vk-brands.svg" alt="vk" class="socials__img"></a></li>
+                            <li class="socials__item"><a class="socials__link" href="#!"><img
+                                        src="./images/socials/linkedin-in-brands.svg" alt="linked"
+                                        class="socials__img"></a>
+                            </li>
+                            <li class="socials__item"><a class="socials__link" href="#!"><img
+                                        src="./images/socials/github.svg" alt="github" class="socials__img"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item-sub">
+                        <button class="footer__item-sub-btn">Связаться Вконтакте</button>
+                        <p class="footer__item-sub-text">Напишите мне, чтобы заказать или узнать стоимость верстки
+                            вашего
+                            проекта</p>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
