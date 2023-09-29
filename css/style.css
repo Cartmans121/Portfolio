@@ -97,7 +97,7 @@ body{
    
   .arrow {
     position: absolute;
-    bottom: -180%;
+    bottom: -100%;
     left: 50%;
     margin-left:-20px;
     cursor: pointer;
